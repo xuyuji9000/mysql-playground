@@ -4,6 +4,7 @@
 docker run --rm \
 -e MYSQL_ALLOW_EMPTY_PASSWORD=yes \
 -e MYSQL_DATABASE=test \
+-p 3306:3306 \
 mysql --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
 ```
 
